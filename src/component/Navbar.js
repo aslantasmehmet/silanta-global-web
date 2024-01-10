@@ -19,11 +19,11 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full h-20 bg-blue-950 fixed top-0 z-30 transition-all duration-700 shadow-xl ${
+      className={`w-full h-24 bg-blue-950 fixed top-0 z-30 transition-all duration-700 shadow-xl ${
         isScrolled ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 gap-4 mt-2">
         <div className="..."></div>
         <div className="col-span-2 flex flex-row pt-8">
           <div className="flex flex-col">
